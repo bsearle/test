@@ -10,12 +10,7 @@
 use {3}
 
 
-{1}
-
-
-IF OBJECT_ID('tempdb..#snaps') IS NOT NULL
-	drop table #snaps
-IF OBJECT_ID('tempdb..#SSU') IS NOT NULL	
+	
 	drop table #SSU
 IF OBJECT_ID('tempdb..#opentran') IS NOT NULL
 	drop table #opentran
